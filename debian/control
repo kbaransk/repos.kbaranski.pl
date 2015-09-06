@@ -1,0 +1,15 @@
+Source: repos.kbaranski.pl
+Section: unknown
+Priority: optional
+Maintainer: Krzysztof Baranski <kbaransk@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://repos.kbaranski.pl/
+#Vcs-Git: git://anonscm.debian.org/collab-maint/repos.kbaranski.pl.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/repos.kbaranski.pl.git;a=summary
+
+Package: repos.kbaranski.pl
+Architecture: all
+Depends: ${misc:Depends}
+Description: Repository configuration package.
+ You can install that package to have repository added to /etc/apt/sources.list.d/ and repositorie's key imported into /etc/apt/trusted.gpg.d/.

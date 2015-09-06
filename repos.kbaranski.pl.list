@@ -1,0 +1,4 @@
+# 
+deb http://repos.kbaranski.pl/debian/ jessie main
+deb-src http://repos.kbaranski.pl/debian/ jessie main
+
